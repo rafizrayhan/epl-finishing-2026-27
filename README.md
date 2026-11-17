@@ -91,6 +91,9 @@ xGOT does not see deflections, screened shots or the keeper's starting position,
 | `out/page_2_why.png` | Bad shooting, or great goalkeeping? |
 | `out/page_3_keepers.png` | Which keepers are saving the most? |
 | `out/page_4_players.png` | Hottest and coldest finishers |
+| `out/page_5_shotmap_1.png` | Shot maps: Chelsea and Brighton (running hot) |
+| `out/page_5_shotmap_2.png` | Shot maps: Forest and Bournemouth (same problem, different reason) |
+| `out/page_5_shotmap_3.png` | Shot maps: Fulham and Sunderland (wrong in both places) |
 
 **Analyst charts:** `out/chart_teams.png` (all 20 teams split), `out/chart_keepers.png` (22 keepers with luck bands), `out/chart_players.png` (goals v xG for 53 players).
 
@@ -107,6 +110,7 @@ python src/s2_keepers.py         # goalkeeper goals prevented
 python src/s3_players.py         # player finishing (non-penalty)
 python src/s4_charts.py          # analyst charts
 python src/s5_pages.py           # pages for a general audience
+python src/s6_shotmaps.py        # shot maps: where teams shoot from and where shots on target end up
 ```
 
 Run the scripts from the repository root. A clean run in a fresh folder reproduces every table in `data/` exactly.
